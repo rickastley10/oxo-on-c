@@ -19,34 +19,48 @@ int main(){
         printf("%s|%s|%s\n", a4, a5, a6);
         printf("-----\n");
         printf("%s|%s|%s\n", a7, a8, a9);
+
+        printf("\nwhere to place what?\nq to quit\n> ");
         char num[] = "";
         scanf("%s", num);
         if (strcmp(num, "1") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a1);  
         }
         else if (strcmp(num, "2") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a2);
         }
         else if (strcmp(num, "3") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a3);
         }
         else if (strcmp(num, "4") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a4);
         }
         else if (strcmp(num, "5") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a5);
         }
         else if (strcmp(num, "6") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a6);
         }
         else if (strcmp(num, "7") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a7);
         }
         else if (strcmp(num, "8") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a8);
         }
         else if (strcmp(num, "9") == 0) {
+            printf("\nwhat to place?\n x / o\n>");
             scanf("%s", a9);
+        }
+        else if (strcmp(num, "q")==0){
+            return 0;
         }
     }
 
